@@ -1,0 +1,24 @@
+{
+  "name": "marketplacegames",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "api": "cd ../node-api && npm start",
+    "start": "webpack serve --open",
+    "demo": "set PORT=8080 && serve docs"
+  },
+  "keywords": [],
+  "author": "Duta",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.10.0",
+    "html-loader": "^5.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
