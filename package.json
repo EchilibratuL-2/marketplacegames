@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    "api": "cd ../node-api && npm start",
+    "clean": "rimraf docs",
+    "clear": "npm run clean && rimraf node_modules",
+    "prebuild": "npm run clean",
+    "build": "webpack --mode production",
     "start": "webpack serve --open",
     "demo": "set PORT=8080 && serve docs"
   },
