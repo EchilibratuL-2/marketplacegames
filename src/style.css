@@ -1,3 +1,132 @@
-h1{
-    color: blue;
+html {
+  height: 100%;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  margin: 5px 0;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  margin: 5px 0;
+  font-weight: 100;
+  font-size: 1.2em;
+}
+
+img {
+  width: 200px;
+  height: 120px;
+  float: right;
+  margin-right: 49%;
+  margin-top: 50px;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana;
+  background: linear-gradient(45deg, #49a09d, #5f2c82);
+}
+
+section {
+  flex: 1;
+  padding: 15px;
+}
+
+#teamsTable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#teamsTable tfoot input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#teamsTable th,
+#teamsTable td {
+  border: 1px solid #000000;
+  padding: 5px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+tbody {
+	tr {
+		&:hover {
+			background-color: rgba(255,255,255,0.3);
+		}
+	}
+}
+#teamsTable th {
+  background-color: #000000;
+  color: white;
+}
+
+#teamsTable tr:nth-child(even) {
+  background-color: #ff0000;
+}
+
+footer {
+  padding: 10px 10px 8px 10px;
+  background-color: #000000;
+  color: #f5f5f5;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  gap: 5px;
+}
+
+footer .item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+
+footer a {
+  color: #f5f5f5;
+  padding: 2px 5px;
+  border-radius: 0.2em;
+  transition: 0.5s;
+}
+
+footer a:hover {
+  text-decoration: none;
+  background-color: #0798ab;
+}
+
+#header-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#my-pictures {
+  padding: 5px;
+  width: 108px;
+  height: 108px;
+}
+
+#my-pictures img {
+  border-radius: 50%;
+  border: 4px solid rgb(255, 255, 255);
+  background-color: #85555590;
+}
+
+table {
+  width: 100%;
+}
+
+#header-info {
+  flex: 1;
+  padding: 10px;
+  text-shadow: 1px 1px 2px #0000002c;
 }
