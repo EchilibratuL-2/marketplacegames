@@ -7,13 +7,13 @@
     "clean": "rimraf docs",
     "clear": "npm run clean && rimraf node_modules",
     "prebuild": "npm run clean",
-    "api": "cd ../node-api && npm start",
+    "api": "cd ../marketplacegames-API && npm start",
     "build": "webpack --mode production",
     "start": "webpack serve --open",
     "demo": "set PORT=8080 && serve docs"
   },
   "keywords": [],
-  "author": "Duta",
+  "author": "Duta Ionut-Gabriel",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.10.0",
