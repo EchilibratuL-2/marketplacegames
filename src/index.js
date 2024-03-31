@@ -37,6 +37,24 @@ function updateTeamRequest(team) {
   });
 }
 
+function filterTeams(query) {
+  const filteredTeams = allTeams.filter(team => {
+    // You can customize this condition based on your filtering criteria
+    return (
+      team.promotion.toLowerCase().includes(query.toLowerCase()) ||
+      team.members.toLowerCase().includes(query.toLowerCase()) ||
+      team.name.toLowerCase().includes(query.toLowerCase()) ||
+      team.url.toLowerCase().includes(query.toLowerCase())
+    );
+  });
+  renderTeams(filteredTeams); // Render filtered teams
+}
+
+$("#searchInput").addEventListener("input", function() {
+  const query = this.value.trim(); // Get the search query
+  filterTeams(query); // Filter teams based on the query
+});
+
 function getTeamAsHTML(team) {
   return `<tr>
     <td>${team.promotion}</td>
@@ -57,7 +75,7 @@ function renderTeams(teams) {
 }
 
 function loadTeams() {
-    fetch("http://localhost:3000/teams-json")
+  fetch("http://localhost:3000/teams-json")
     .then(r => r.json())
     .then(teams => {
       allTeams = teams;

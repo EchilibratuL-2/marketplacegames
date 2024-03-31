@@ -17,14 +17,19 @@
     </div>
   </header>
   <section>
+    <div class="tbar">
+      <div class="tfill"></div>
+      <input type="text" id="searchInput" placeholder="Search teams..." />
+      <label for="search">🔎</label>
+    </div>
     <form id="teamsForm" method="get">
       <table id="teamsTable" border="1">
         <colgroup>
-          <col style="width: 300px;">
+          <col style="width: 400px;">
           <col />
           <col />
           <col style="width: 350px;">
-          <col style="width: 80px;">
+          <col style="width: 100px;">
         </colgroup>
         <thead>
           <tr>
@@ -42,13 +47,13 @@
               <input type="text" name="promotion" id="promotion" placeholder="Enter game" required />
             </td>
             <td>
-              <input type="text" name="members" id="members" placeholder="Enter date" required />
+              <input type="date" name="members" id="members" placeholder="Enter date" required />
             </td>
             <td>
-              <input type="text" name="name" id="name" placeholder="Enter promotion date" required />
+              <input type="date" name="name" id="name" placeholder="Enter promotion date" required />
             </td>
             <td>
-              <input type="text" name="url" id="url" placeholder="Enter expire date" required />
+              <input type="date" name="url" id="url" placeholder="Enter expire date" required />
             </td>
             <td>
               <button type="submit">💾</button>
