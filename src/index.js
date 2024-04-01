@@ -8,7 +8,7 @@ function $(selector) {
 }
 
 function createTeamRequest(team) {
-  fetch("http://localhost:3000/teams-json/create", {
+ return fetch("http://localhost:3000/teams-json/create", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
@@ -18,7 +18,7 @@ function createTeamRequest(team) {
 }
 
 function deleteTeamRequest(id) {
-  fetch("http://localhost:3000/teams-json/delete", {
+  return fetch("http://localhost:3000/teams-json/delete", {
     method: "DELETE",
     headers: {
       "Content-Type": "application/json"
@@ -46,12 +46,12 @@ function filterTeams(query) {
       team.url.toLowerCase().includes(query.toLowerCase())
     );
   });
-  renderTeams(filteredTeams); 
+  renderTeams(filteredTeams);
 }
 
-$("#searchInput").addEventListener("input", function() {
-  const query = this.value.trim(); 
-  filterTeams(query); 
+$("#searchInput").addEventListener("input", function () {
+  const query = this.value.trim();
+  filterTeams(query);
 });
 
 function getTeamAsHTML(team) {
@@ -113,7 +113,9 @@ function onSubmit(e) {
     });
   } else {
     const req = createTeamRequest(team);
+    console.log("aici", req, team);
     const response = req.then(r => r.json());
+    console.log("dupa", response);
     response.then(status => {
       if (status.success) {
         window.location.reload();
