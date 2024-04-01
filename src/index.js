@@ -39,7 +39,6 @@ function updateTeamRequest(team) {
 
 function filterTeams(query) {
   const filteredTeams = allTeams.filter(team => {
-    // You can customize this condition based on your filtering criteria
     return (
       team.promotion.toLowerCase().includes(query.toLowerCase()) ||
       team.members.toLowerCase().includes(query.toLowerCase()) ||
@@ -47,12 +46,12 @@ function filterTeams(query) {
       team.url.toLowerCase().includes(query.toLowerCase())
     );
   });
-  renderTeams(filteredTeams); // Render filtered teams
+  renderTeams(filteredTeams); 
 }
 
 $("#searchInput").addEventListener("input", function() {
-  const query = this.value.trim(); // Get the search query
-  filterTeams(query); // Filter teams based on the query
+  const query = this.value.trim(); 
+  filterTeams(query); 
 });
 
 function getTeamAsHTML(team) {
