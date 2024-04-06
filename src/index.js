@@ -37,6 +37,14 @@ function updateTeamRequest(team) {
   });
 }
 
+function showLoadingScreen() {
+  $("#loadingScreen").style.display = "block";
+}
+
+function hideLoadingScreen() {
+  $("#loadingScreen").style.display = "none";
+}
+
 function filterTeams(query) {
   const filteredTeams = allTeams.filter(team => {
     return (
@@ -74,11 +82,13 @@ function renderTeams(teams) {
 }
 
 function loadTeams() {
+  showLoadingScreen(); // Afișează ecranul de încărcare
   fetch("http://localhost:3000/teams-json")
     .then(r => r.json())
     .then(teams => {
       allTeams = teams;
       renderTeams(teams);
+      hideLoadingScreen(); // Ascunde ecranul de încărcare după ce datele sunt încărcate
       return teams;
     });
 }
