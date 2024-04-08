@@ -8,7 +8,7 @@ function $(selector) {
 }
 
 function createTeamRequest(team) {
- return fetch("http://localhost:3000/teams-json/create", {
+  return fetch("http://localhost:3000/teams-json/create", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
@@ -131,13 +131,6 @@ function onSubmit(e) {
         window.location.reload();
       }
     });
-    createTeamRequest(team)
-      .then(r => r.json())
-      .then(status => {
-        if (status.success) {
-          window.location.reload();
-        }
-      });
   }
 }
 
