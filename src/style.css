@@ -21,6 +21,7 @@ img {
   float: right;
   margin-right: 49%;
   margin-top: 50px;
+  /*animation: rotateLeft 15s linear infinite;*/
 }
 
 body {
@@ -57,11 +58,11 @@ section {
 }
 
 tbody {
-	tr {
-		&:hover {
-			background-color: rgba(255,255,255,0.3);
-		}
-	}
+  tr {
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+  }
 }
 #teamsTable th {
   background-color: #000000;
@@ -170,6 +171,126 @@ table {
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*heder style*/
+
+.ad-image-left {
+  position: absolute;
+  padding: 0px 0px 10px 10px;
+  margin-left: 100px;
+}
+
+.ad-image-right {
+  position: absolute;
+  padding: 0px 0px 40px 1380px;
+}
+
+.t-left {
+  text-decoration-color: aquamarine;
+  text-align: start;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 0px 0px 0px 15px;
+  text-shadow: 2px 1px #d1f25a;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 20;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.t-right {
+  text-decoration-color: aquamarine;
+  text-align: end;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 0px 40px 0px 0px;
+  text-shadow: 2px 1px #d1f25a;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 20;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.rotate-text {
+  text-align: center;
+  position: absolute;
+  text-shadow: 2px 2px #ccc;
+  text-transform: uppercase;
+  -webkit-text-stroke-color: #fff;
+  top: 20%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  font-weight: bold;
+  white-space: nowrap;
+  animation: rotateLeft 15s linear infinite;
+  width: 200;
+  height: 200;
+}
+
+@keyframes rotateLeft {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  transform-origin: 10px 100px;
+  transform-style: flat;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-transform: capitalize;
+  text-shadow: #000000;
+  font-weight: 200;
+  color: #fff;
+  margin-top: -25px;
+  margin-left: -25px;
+}
+
+@keyframes circle {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
 }
