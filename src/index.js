@@ -24,7 +24,7 @@ let editId;
 const membersBreak = ", "; // "<br>"
 
 // for demo purposes...
-const isDemo = true || location.host === "nmatei.github.io";
+const isDemo = true || location.host === "echilibratul-2.github.io";
 const inlineChanges = isDemo;
 if (isDemo) {
   API.READ.URL = "data/teams.json";
