@@ -1,40 +1,42 @@
-import "./style.css";
+const API = {
+  CREATE: {
+    URL: "http://localhost:3000/teams/create",
+    METHOD: "POST"
+  },
+  READ: {
+    URL: "http://localhost:3000/teams",
+    METHOD: "GET"
+  },
+  UPDATE: {
+    URL: "http://localhost:3000/teams/update",
+    METHOD: "PUT"
+  },
+  DELETE: {
+    URL: "http://localhost:3000/teams/delete",
+    METHOD: "DELETE"
+  }
+};
 
 let allTeams = [];
 let editId;
 
+// for demo purposes...
+const isDemo = true || location.host === "echilibratul-2.github.io";
+const inlineChanges = isDemo;
+if (isDemo) {
+  API.READ.URL = "data/teams.json";
+  API.DELETE.URL = "data/delete.json";
+  API.CREATE.URL = "data/create.json";
+  API.UPDATE.URL = "data/update.json";
+
+  API.DELETE.METHOD = "GET";
+  API.CREATE.METHOD = "GET";
+  API.UPDATE.METHOD = "GET";
+}
+
+
 function $(selector) {
   return document.querySelector(selector);
-}
-
-function createTeamRequest(team) {
-  return fetch("http://localhost:3000/teams-json/create", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify(team)
-  });
-}
-
-function deleteTeamRequest(id) {
-  return fetch("http://localhost:3000/teams-json/delete", {
-    method: "DELETE",
-    headers: {
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify({ id: id })
-  });
-}
-
-function updateTeamRequest(team) {
-  return fetch("http://localhost:3000/teams-json/update", {
-    method: "PUT",
-    headers: {
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify(team)
-  });
 }
 
 function showLoadingScreen() {
@@ -73,6 +75,15 @@ function getTeamAsHTML(team) {
       <a href="#" data-id="${team.id}" class="edit-btn">&#9998;</a> 
     </td>
   </tr>`;
+}
+
+function loadList() {
+  return fetch(API.READ.URL)
+    .then(res => res.json())
+    .then(data => {
+      allTeams = data;
+      showTeams(data);
+    });
 }
 
 function renderTeams(teams) {

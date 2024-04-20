@@ -1,400 +1,65 @@
 [
   {
     "id": "01",
-    "promotion": "FastTrackIT",
-    "members": "Nicolae Matei",
-    "name": "💻 Teams Networking (CRUD*)",
-    "description": "CRUD stands for: <strong>C</strong>reate, <strong>R</strong>ead, <strong>U</strong>pdate, <strong>D</strong>elete",
-    "url": "https://github.com/nmatei/teams-networking",
-    "createdBy": "nmatei"
+    "promotion": "A",
+    "members": "b",
+    "name": "c",
+    "url": "d"
   },
   {
     "id": "02",
-    "promotion": "2021-won1",
-    "members": "Coman Oana, Adina Bîlc, Bianca Vesa",
-    "name": "🚑 Medical Inventory store",
-    "url": "https://github.com/comanoana/medstore",
-    "createdBy": "students"
+    "promotion": "A",
+    "members": "B",
+    "name": "C",
+    "url": "D"
   },
   {
     "id": "03",
-    "promotion": "2021-won1",
-    "members": "Cristi Cosma, Reka Kovacs, Simona Glodean",
-    "name": "📃 DOCS Generator",
-    "url": "https://github.com/CristiCozma/docsgenerator",
-    "createdBy": "students"
+    "promotion": "W",
+    "members": "E",
+    "name": "R",
+    "url": "T"
   },
   {
     "id": "04",
-    "promotion": "2021-won1",
-    "members": "Kadar Mihaly, Tiberiu Deak",
-    "name": "🚨 Fire Alarm",
-    "url": "https://github.com/deaktiberiu/alarmaaa",
-    "createdBy": "students"
+    "promotion": "W",
+    "members": "E",
+    "name": "R",
+    "url": "T"
   },
   {
     "id": "05",
-    "promotion": "2021-won1",
-    "members": "Iacob Tudor, Andrei Tirla, Rareș Roman, Vlad Felecan",
-    "name": "Hunting Quiz",
-    "url": "https://github.com/romanrares/hunters",
-    "createdBy": "students"
+    "promotion": "da",
+    "members": "da",
+    "name": "s",
+    "url": "s"
   },
   {
     "id": "06",
-    "promotion": "2021-won1",
-    "members": "Stanca Știrb, Sergiu Corfu, Ștefania Popa",
-    "name": "Home Storage",
-    "url": "https://github.com/scorfu/myStorage",
-    "createdBy": "students"
+    "promotion": "d",
+    "members": "d",
+    "name": "d",
+    "url": "d"
   },
   {
     "id": "07",
-    "promotion": "2021-Won2",
-    "members": "Alexandra Chicinas, Adelina Nica, Fineas Berende, Ciprian Chesa, Violeta Mercea",
-    "name": "Farm Delivery",
-    "url": "https://github.com/alexandraschicinas/Farm_Delivery",
-    "createdBy": "students"
+    "promotion": "g",
+    "members": "g",
+    "name": "g",
+    "url": "g"
   },
   {
     "id": "08",
-    "promotion": "2021-Won2",
-    "members": "Adriana Mocanu, Bogdan Muste, Alexandra Stanescu",
-    "name": "Animal Register",
-    "url": "https://github.com/adriana-mocanu/animal-register",
-    "createdBy": "students"
+    "promotion": "f",
+    "members": "f",
+    "name": "f",
+    "url": "f"
   },
   {
     "id": "09",
-    "promotion": "2019-web3",
-    "members": "Andreea, Daniela, Ciprian",
-    "name": "Maze Game",
-    "url": "https://github.com/andreeaotet/maze-game-project",
-    "createdBy": "students"
-  },
-  {
-    "id": "10",
-    "promotion": "2019-web3",
-    "members": "Dana, Daniel, Valentiu",
-    "name": "Buget Lunar",
-    "url": "https://github.com/domne21/buget-lunar-app",
-    "createdBy": "students"
-  },
-  {
-    "id": "11",
-    "promotion": "2019-web3",
-    "members": "Lucian, Razvan, Mircea",
-    "name": "Fitness",
-    "url": "https://github.com/1lucianmoldovan/node-fitness-app",
-    "createdBy": "students"
-  },
-  {
-    "id": "12",
-    "promotion": "2019-web3",
-    "members": "Andreea, Cosmin",
-    "name": "JS Quiz",
-    "url": "https://github.com/Smokyn/simple-quiz-app",
-    "createdBy": "students"
-  },
-  {
-    "id": "13",
-    "promotion": "2019-web3",
-    "members": "Diana, Larisa",
-    "name": "Eurofest",
-    "url": "https://github.com/diagn/eurofestproject",
-    "createdBy": "students"
-  },
-  {
-    "id": "14",
-    "promotion": "2019-web3",
-    "members": "Attila, Alexandra, Ionel",
-    "name": "📚 My Library",
-    "url": "https://github.com/nattila12/book-app",
-    "createdBy": "students"
-  },
-  {
-    "id": "15",
-    "promotion": "2021-won3",
-    "members": "Corpodean Andrei, Chișiu Ionuț, Ichim Maximilian",
-    "name": "Food Waste Planner",
-    "url": "https://github.com/ACorpodean/Food-Waste-Planner",
-    "createdBy": "students"
-  },
-  {
-    "id": "16",
-    "promotion": "2021-won3",
-    "members": "Suciu Tudor, Rădulescu Alexandru",
-    "name": "Expert Explicatii",
-    "url": "https://github.com/RadulescuAlex/expert-aplicatii",
-    "createdBy": "students"
-  },
-  {
-    "id": "17",
-    "promotion": "2021-won3",
-    "members": "Ratiu Alex, Durcau Paul",
-    "name": "♟ Checkers",
-    "url": "https://github.com/Ratiu23/Checkers",
-    "createdBy": "students"
-  },
-  {
-    "id": "18",
-    "promotion": "2022-won8",
-    "members": "Beniamin Bărariu, Cătălin Dochița, Anca Pidmaliski",
-    "name": "🚗 Auto Recycling",
-    "url": "https://github.com/barariubeniamin/auto-recycling",
-    "createdBy": "students"
-  },
-  {
-    "id": "19",
-    "promotion": "2022-won8",
-    "members": "Ghitun Iulian Bogdan, Ichim Emanuel, Dana Vlas",
-    "name": "🍔 Interactive Restaurant Menu",
-    "url": "https://github.com/qBogdan/interactive-menu",
-    "createdBy": "students"
-  },
-  {
-    "id": "20",
-    "promotion": "2022-won8",
-    "members": "Andrada Povian, Dorin Povian, Andreea Toader",
-    "name": "🍕 Retete si produse",
-    "url": "https://github.com/AndraPovian/recipes",
-    "createdBy": "students"
-  },
-  {
-    "id": "21",
-    "promotion": "2022-won8",
-    "members": "Mihai Iusztin, Dan Atănăsoaie",
-    "name": "💹 Investment Portofolio",
-    "url": "https://github.com/Mihai-Iusztin/investment-portofolio",
-    "createdBy": "students"
-  },
-  {
-    "id": "22",
-    "promotion": "2022-won8",
-    "members": "Ivan Constantin Raul, Bianca Giurgiu, Mihai Semenescu, Claudiu Cîmpean",
-    "name": "✅ Daily To Do List",
-    "url": "https://github.com/constantinraulivan/to-do-list",
-    "createdBy": "students"
-  },
-  {
-    "id": "23",
-    "promotion": "2022-won8",
-    "members": "Aurelian & Mihaela Constantin",
-    "name": "🌦 Meteo",
-    "url": "https://github.com/aurelian2020/meteo",
-    "createdBy": "students"
-  },
-  {
-    "id": "24",
-    "promotion": "2022-won8",
-    "members": "Mihaela Codrescu, Manuel Farcaș",
-    "name": "📖 Agenda",
-    "url": "https://github.com/mihaela-cod/address-book",
-    "createdBy": "students"
-  },
-  {
-    "id": "25",
-    "promotion": "2023-won11",
-    "members": "Alexandra Gabriela Dan, Bodea Mihai Cristian, Mary-Ann Johanna Frunzete",
-    "name": "📅 HR Software",
-    "url": "https://github.com/maryfru/HR-Software",
-    "createdBy": "students"
-  },
-  {
-    "id": "26",
-    "promotion": "2023-won11",
-    "members": "Ciont Antonia Roxana, Iuhasz Pișcăran Riana Fiona, Tătaru Andreea Simona, Erema Marian",
-    "name": "🍽 Camara Virtuala",
-    "url": "https://github.com/fioip/organizare-camara",
-    "createdBy": "students"
-  },
-  {
-    "id": "27",
-    "promotion": "2023-won11",
-    "members": "Elena Zaharia, Vaida Aurel Nicolae, Valentin Constantinescu",
-    "name": "✅ Quiz Game",
-    "url": "https://github.com/elenazaharia1/quiz-game",
-    "createdBy": "students"
-  },
-  {
-    "id": "28",
-    "promotion": "2023-won11",
-    "members": "Deritei Norbert, Vălean Marius Laurențiu",
-    "name": "🏕 Rezervari Camping",
-    "url": "https://github.com/norbideritei/PlayGround-Club",
-    "createdBy": "students"
-  },
-  {
-    "id": "29",
-    "promotion": "2023-won11",
-    "members": "Birișan Răzvan",
-    "name": "♟ Chess",
-    "url": "https://github.com/razvbir/fasttrackit-won11-chess",
-    "createdBy": "students"
-  },
-  {
-    "id": "30",
-    "promotion": "2023-won11",
-    "members": "Velicu Mihai, Paun Andrei",
-    "name": "🎞 Cinema Ticketing",
-    "url": "https://github.com/Mihai2702/cinema-ticketing",
-    "createdBy": "students"
-  },
-  {
-    "id": "31",
-    "promotion": "2023-won11",
-    "members": "Faragau Dan, Faragau Giulia",
-    "name": "🛒 Shopping List",
-    "url": "https://github.com/faragaudan/shopping-list",
-    "createdBy": "students"
-  },
-  {
-    "id": "32",
-    "promotion": "2023-won11",
-    "members": "Pirvulescu Andrei Alexandru",
-    "name": "🐕 Pet Adopt Romania",
-    "url": "https://github.com/andrupirvulescu/PetAdoptRomania",
-    "createdBy": "students"
-  },
-  {
-    "id": "33",
-    "promotion": "2024-won15",
-    "members": "Robotin Rares, Placintar Adina, Tescan Daniela, Gherasim Nicoleta",
-    "name": "Recipe Rescue",
-    "url": "https://github.com/raresrobotin/Recipe-Rescue",
-    "createdBy": "students"
-  },
-  {
-    "id": "34",
-    "promotion": "2024-won15",
-    "members": "Mihai-Andrei Ciupitu, Gioni Cornea",
-    "name": "Poker Planning",
-    "url": "https://github.com/mihaiciupitu/poker-planning",
-    "createdBy": "students"
-  },
-  {
-    "id": "35",
-    "promotion": "2024-won15",
-    "members": "Ciuban Eduard, Alexandra Calota",
-    "name": "DigitalCraft Hub",
-    "url": "https://github.com/eduard96c/blog",
-    "createdBy": "students"
-  },
-  {
-    "id": "36",
-    "promotion": "2024-won15",
-    "members": "Voichita Maria Truscai, Denisa Puie",
-    "name": "SundaySchool-BibleLessons",
-    "url": "https://github.com/sabovoichita/sunday-school-cross-out-game",
-    "createdBy": "students"
-  },
-  {
-    "id": "37",
-    "promotion": "2024-won15",
-    "members": "Duta Ionut-Gabriel, Crișan Dumitru Mircea",
-    "name": "Marketplace Games",
-    "url": "https://github.com/EchilibratuL-2/marketplacegames",
-    "createdBy": "students"
-  },
-  {
-    "id": "38",
-    "promotion": "2024-won15",
-    "members": "Todea Iulia Ana",
-    "name": "Pet Register",
-    "url": "https://github.com/tiulia21/Pet-Register",
-    "createdBy": "students"
-  },
-  {
-    "id": "001",
-    "promotion": "proposal",
-    "members": "Nicolae Matei",
-    "name": "😇 Personality Tests",
-    "url": "",
-    "createdBy": "nmatei"
-  },
-  {
-    "id": "002",
-    "promotion": "proposal",
-    "members": "Nicolae Matei",
-    "name": "📆 Daily TODO list",
-    "url": "https://salefeature.com/product?pid=2506186936931442993-9-14-1652339366&sh=14&ssn=facebook&adu=ms&fbclid=IwAR3JD3Z3kyfeprye4u3YkkRDttAJbYM8x7wyNxwHOeItfeoUTCG9x1l2zRo_aem_AYi_MZh1SAI4S1MzEgifaS86Z3cCVD-mCUJp9anEcgABqbbixZY9dgDw1Usxg4u6fRa1NumeOgHvHBdA0MaNt9nyOCKhmQufZgPsMH3uVQMbxWZDJP1x0-hb84HI10EVmGs",
-    "createdBy": "nmatei"
-  },
-  {
-    "id": "003",
-    "promotion": "proposal",
-    "members": "Nicolae Matei",
-    "name": "💬 Funny/fake WhatsApp",
-    "url": "https://m.youtube.com/c/1minutderas",
-    "createdBy": "nmatei"
-  },
-  {
-    "id": "004",
-    "promotion": "soon",
-    "members": "Nicolae Matei",
-    "name": "🔋 🚘 EV Charging History (Estimations)",
-    "url": "",
-    "createdBy": "nmatei"
-  },
-  {
-    "id": "005",
-    "promotion": "proposal",
-    "members": "Nicolae Matei",
-    "name": "✋ Online class Register - class / online / missing",
-    "url": "",
-    "createdBy": "nmatei"
-  },
-  {
-    "id": "006",
-    "promotion": "proposal",
-    "members": "Nicolae Matei",
-    "name": "📅 Student Agenda",
-    "url": "",
-    "createdBy": "nmatei"
-  },
-  {
-    "id": "007",
-    "promotion": "proposal",
-    "members": "Nicolae Matei",
-    "name": "🛒 Best prices in stores",
-    "description": "show me best in this store, create shoping list and update prices in each store",
-    "url": "",
-    "createdBy": "nmatei"
-  },
-  {
-    "id": "008",
-    "promotion": "proposal",
-    "members": "Nicolae Matei",
-    "name": "👨‍👩‍👧‍👦 Kids vs Parents",
-    "description": "Game with general questions based on level",
-    "url": "https://www.emag.ro/joc-de-societate-copii-vs-parintii-27-x-5-x-27-5-cm-os-251/pd/DRTG7RMBM/?cmpid=97684&gclid=CjwKCAjwuqiiBhBtEiwATgvixOXC1VtQfas6mSNe146ESVqi7Bo9xXGrfDYzFgN2tzlGEA704zAOsRoC3DsQAvD_BwE",
-    "createdBy": "nmatei"
-  },
-  {
-    "id": "009",
-    "promotion": "soon",
-    "members": "Nicolae Matei",
-    "name": "⏳☕ Custom 'timer' to use for breaks",
-    "description": "",
-    "url": "https://e.ggtimer.com/5minutes",
-    "createdBy": "nmatei"
-  },
-  {
-    "id": "010",
-    "promotion": "proposal",
-    "members": "Nicolae Matei",
-    "name": "🃏 Poker planning",
-    "description": "Scrum Poker for agile development teams",
-    "url": "https://planningpokeronline.com/",
-    "createdBy": "nmatei"
-  },
-  {
-    "id": "011",
-    "promotion": "proposal",
-    "members": "Nicolae Matei",
-    "name": "⌨ Fast Typing",
-    "description": "Chrome extension that is added on https://my.bible.com/bible",
-    "url": "https://10fastfingers.com/typing-test/english",
-    "createdBy": "nmatei"
+    "promotion": "f",
+    "members": "f",
+    "name": "f",
+    "url": "f"
   }
 ]
