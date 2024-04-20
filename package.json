@@ -1,25 +1,25 @@
 {
   "name": "marketplacegames",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Team Members",
   "main": "index.js",
   "scripts": {
     "clean": "rimraf docs",
     "clear": "npm run clean && rimraf node_modules",
     "prebuild": "npm run clean",
-    "api": "cd ../marketplacegames-API && npm start",
     "build": "webpack --mode production",
+    "api": "cd ../marketplacegames-API && npm start",
     "start": "webpack serve --open",
     "demo": "set PORT=8080 && serve docs"
   },
   "keywords": [],
-  "author": "Duta Ionut-Gabriel",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
-    "css-loader": "^6.10.0",
+    "css-loader": "^7.1.1",
     "html-loader": "^5.0.0",
     "html-webpack-plugin": "^5.6.0",
-    "style-loader": "^3.3.4",
+    "style-loader": "^4.0.0",
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.0.4"
